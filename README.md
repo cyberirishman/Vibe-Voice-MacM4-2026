@@ -7,8 +7,8 @@ Tested working on a Mac Mini M4 (64 GB RAM) with the VibeVoice-Large (7B) model.
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/cyberirishman/Vibe-Voice-MacM4-2026.git
+cd Vibe-Voice-MacM4-2026
 bash vibevoice_apple_silicon.sh
 ```
 
