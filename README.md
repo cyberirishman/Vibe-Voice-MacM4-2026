@@ -63,9 +63,9 @@ The excellent [sammcj/VibeVoice4macOS](https://github.com/sammcj/VibeVoice4macOS
 - Prior art for macOS setup: [sammcj/VibeVoice4macOS](https://github.com/sammcj/VibeVoice4macOS)
 
 ## Where the big files live on your Hard Drive ##. 
-~/vibevoice/
-├── .venv/                                  ← Python + all packages. 
-├── VibeVoice/                              ← the VibeVoice source code. 
+~/vibevoice/  
+├── .venv/                                  ← Python + all packages  
+├── VibeVoice/                              ← the VibeVoice source code   
 ├── models/  
 │   ├── aoi-ot_VibeVoice-Large/             ← ~18 GB, if you chose Large  
 │   └── microsoft_VibeVoice-1.5B/           ← ~5 GB, if you chose 1.5B. \  
