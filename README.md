@@ -62,6 +62,18 @@ The excellent [sammcj/VibeVoice4macOS](https://github.com/sammcj/VibeVoice4macOS
 - Large-model weight mirror: [aoi-ot/VibeVoice-Large](https://huggingface.co/aoi-ot/VibeVoice-Large)
 - Prior art for macOS setup: [sammcj/VibeVoice4macOS](https://github.com/sammcj/VibeVoice4macOS)
 
+## Where the big files live on your Hard Drive ##. 
+~/vibevoice/
+├── .venv/                                  ← Python + all packages. 
+├── VibeVoice/                              ← the VibeVoice source code. 
+├── models/  
+│   ├── aoi-ot_VibeVoice-Large/             ← ~18 GB, if you chose Large  
+│   └── microsoft_VibeVoice-1.5B/           ← ~5 GB, if you chose 1.5B. \  
+├── cache/huggingface/                      ← download cache  
+├── tools/ffmpeg/                           ← portable ffmpeg (only if needed)  
+├── outputs/. 
+└── constraints.txt. 
+  
 ## Responsible use
 
 VibeVoice can clone voices convincingly. Don't generate audio of real people without their consent, and disclose AI-generated audio where listeners could reasonably mistake it for a real recording.
