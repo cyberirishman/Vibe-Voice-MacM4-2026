@@ -92,8 +92,10 @@ VibeVoice does zero-shot voice cloning from a short audio sample — and adding 
 ## Sampling Voices from Youtube ##
 Only if you have permission. 
 from inside the project folder :  
+```bash
 uvx yt-dlp -x --audio-format wav --download-sections "*1:00-1:35" \
-  -o ~/Desktop/en-Speaker_man.wav "https://youtube.com/watch?v=VIDEO_ID"  
+  -o ~/Desktop/en-Speaker_man.wav "https://youtube.com/watch?v=VIDEO_ID"
+```
   ONLY DO WITH PERMISSION  
 
 Tips: the clone inherits the character of the sample, so speak with the energy you want in the output — a flat sample produces flat speech. If results sound off, try a *different* 30 seconds rather than a longer file. You can add as many voices as you like and combine them in multi-speaker scripts.
