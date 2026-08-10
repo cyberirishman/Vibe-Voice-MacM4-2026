@@ -90,7 +90,7 @@ VibeVoice does zero-shot voice cloning from a short audio sample — and adding 
 4. **Restart the demo** (ctrl-C, then re-run the script). Your voice now appears in the speaker dropdown — select it, enter text, generate.
 
 ## Sampling Voices from Youtube ##
-Only if you have permission. 
+Only if you have permission.  
 from inside the project folder :  
 ```bash
 uvx yt-dlp -x --audio-format wav --download-sections "*1:00-1:35" \
