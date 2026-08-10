@@ -95,8 +95,10 @@ from inside the project folder :
 ```bash
 uvx yt-dlp -x --audio-format wav --download-sections "*1:00-1:35" \
   -o ~/Desktop/en-Speaker_man.wav "https://youtube.com/watch?v=VIDEO_ID"
-```
-  ONLY DO WITH PERMISSION  !!
+``` 
+  Adjust `*1:00-1:35` to a ~30-second stretch where only the target speaker is talking   
+ — one voice, no music, no background noise.  
+   
 If yt-dlp complains it can't find ffmpeg (it needs it for the WAV conversion),   
 install ffmpeg with homebrew  
 ```bash  
