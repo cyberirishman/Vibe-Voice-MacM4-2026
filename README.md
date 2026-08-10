@@ -71,9 +71,11 @@ Generation on MPS is slower than on NVIDIA GPUs but very usable, especially for 
 
 VibeVoice does zero-shot voice cloning from a short audio sample — and adding your own voice is just "drop a file in a folder." The web UI builds its speaker dropdown by scanning `demo/voices/` inside the VibeVoice code directory at startup; every audio file found there becomes a selectable voice.
 
-1. **Record a sample** — roughly 30 seconds (20–60s) of natural speech, e.g. reading a paragraph aloud. Quiet room, one speaker, no background music. Accepted formats: `.wav`, `.mp3`, `.flac`, `.ogg`, `.m4a`, `.aac` — so a raw QuickTime or Voice Memos recording works without conversion.
+1. **Record a sample**
+2. (instructions for using voice memo app near end of readme)     
+3. — roughly 30 seconds (20–60s) of natural speech, e.g. reading a paragraph aloud. Quiet room, one speaker, no background music. Accepted formats: `.wav`, `.mp3`, `.flac`, `.ogg`, `.m4a`, `.aac` — so a raw QuickTime or Voice Memos recording works without conversion.
 
-2. **Name the file** following the convention the built-in voices use — `language-Name_gender.ext`:
+4. **Name the file** following the convention the built-in voices use — `language-Name_gender.ext`:
 
    ```
    en-Andrew_man.wav
@@ -81,13 +83,13 @@ VibeVoice does zero-shot voice cloning from a short audio sample — and adding 
 
    The filename (minus extension) becomes the dropdown label. The convention is cosmetic; any filename works.
 
-3. **Copy it into the voices folder:**
+5. **Copy it into the voices folder:**
 
    ```bash
    cp en-Andrew_man.wav ~/vibevoice/VibeVoice/demo/voices/
    ```
 
-4. **Restart the demo** (ctrl-C, then re-run the script). Your voice now appears in the speaker dropdown — select it, enter text, generate.
+6. **Restart the demo** (ctrl-C, then re-run the script). Your voice now appears in the speaker dropdown — select it, enter text, generate.
 
 ## Sampling Voices from Youtube ##
 Only if you have permission.  
@@ -111,6 +113,17 @@ uvx yt-dlp -x --audio-format wav --download-sections "*1:00-1:35" \
   -o ~/Desktop/en-Speaker_man.wav "https://youtube.com/watch?v=VIDEO_ID"
 ```
 Tips: the clone inherits the character of the sample, so speak with the energy you want in the output — a flat sample produces flat speech. If results sound off, try a *different* 30 seconds rather than a longer file. You can add as many voices as you like and combine them in multi-speaker scripts.
+
+
+## Capturing your own voice on a Mac ##  
+Voice memos app create .m4a files, which project can use.  
+
+Voice Memos (simplest — same app as on iPhone):
+
+Open *Voice Memos* (Cmd+Space, type "Voice Memos").
+Click the red record button, read a paragraph aloud for ~30 seconds, click done.  
+Drag the new recording from the app's sidebar straight onto your Desktop — that gives you the audio file.  
+Rename it to the convention, keeping the extension: en-Andrew_man.m4a, then copy to ~/vibevoice/VibeVoice/demo/voices/   
 
 ## Why this exists
 
