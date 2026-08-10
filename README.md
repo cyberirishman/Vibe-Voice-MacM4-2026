@@ -96,11 +96,12 @@ from inside the project folder :
 uvx yt-dlp -x --audio-format wav --download-sections "*1:00-1:35" \
   -o ~/Desktop/en-Speaker_man.wav "https://youtube.com/watch?v=VIDEO_ID"
 ```
-  ONLY DO WITH PERMISSION  
+  ONLY DO WITH PERMISSION  !!
 If yt-dlp complains it can't find ffmpeg (it needs it for the WAV conversion),   
-add --ffmpeg-location ~/vibevoice/tools/ffmpeg if your new install downloaded the portable copy,   
-or install ffmpeg with brew install ffmpeg if you have Homebrew.  
-
+install ffmpeg with 
+'''bash
+brew install ffmpeg if you have Homebrew.  
+'''  
 Tips: the clone inherits the character of the sample, so speak with the energy you want in the output — a flat sample produces flat speech. If results sound off, try a *different* 30 seconds rather than a longer file. You can add as many voices as you like and combine them in multi-speaker scripts.
 
 ## Why this exists
