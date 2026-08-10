@@ -82,9 +82,8 @@ VibeVoice does zero-shot voice cloning from a short audio sample — and adding 
 
 5. **Name the file** following the convention the built-in voices use — `language-Name_gender.ext`:
 
-   ```
-   en-Andrew_man.wav
-   ```   
+   en-Andrew_man.wav  
+
 
    The filename (minus extension) becomes the dropdown label. The convention is cosmetic; any filename works.  
 
