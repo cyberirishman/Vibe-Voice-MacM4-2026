@@ -99,9 +99,9 @@ uvx yt-dlp -x --audio-format wav --download-sections "*1:00-1:35" \
   ONLY DO WITH PERMISSION  !!
 If yt-dlp complains it can't find ffmpeg (it needs it for the WAV conversion),   
 install ffmpeg with homebrew  
-'''bash  
+```bash  
 brew install ffmpeg    
-'''  
+```    
 Tips: the clone inherits the character of the sample, so speak with the energy you want in the output — a flat sample produces flat speech. If results sound off, try a *different* 30 seconds rather than a longer file. You can add as many voices as you like and combine them in multi-speaker scripts.
 
 ## Why this exists
