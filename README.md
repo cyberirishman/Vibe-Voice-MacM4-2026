@@ -78,7 +78,7 @@ VibeVoice does zero-shot voice cloning from a short audio sample — and adding 
 4. MacOS comes with a utility if needed , place you m4a file on desktop :   
    ```bash  
     afconvert -f WAVE -d LEI16@24000 -c 1 ~/Desktop/andrew_capture.m4a ~/Desktop/en-Andrew_man.wav  
-```  
+   ```  
 
 5. **Name the file** following the convention the built-in voices use — `language-Name_gender.ext`:
 
