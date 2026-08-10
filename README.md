@@ -75,9 +75,9 @@ VibeVoice does zero-shot voice cloning from a short audio sample — and adding 
 1. **Record a sample**
 2. (instructions for using voice memo app near end of readme)     
 3. — roughly 30 seconds (20–60s) of natural speech, e.g. reading a paragraph aloud. Quiet room, one speaker, no background music. Accepted formats: `.wav`,  Voice Memos .m4a recording  requires conversion.
-4. MacOS comes with a utility if needed , place you m4a file on desktop :
+4. MacOS comes with a utility if needed , place you m4a file on desktop :   
 5. ```bash  
-6.  afconvert -f WAVE -d LEI16@24000 -c 1 ~/Desktop/andrew_capture.m4a ~/Desktop/en-Andrew_man.wav
+6.  afconvert -f WAVE -d LEI16@24000 -c 1 ~/Desktop/andrew_capture.m4a ~/Desktop/en-Andrew_man.wav  
 ```  
 
 7. **Name the file** following the convention the built-in voices use — `language-Name_gender.ext`:
