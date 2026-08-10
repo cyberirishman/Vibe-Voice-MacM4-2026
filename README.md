@@ -12,8 +12,8 @@ cd Vibe-Voice-MacM4-2026
 bash vibevoice_apple_silicon.sh
 ```
 
-On first run the script detects your Mac's unified memory and asks which model you want — VibeVoice-Large (7B, best quality, ~18 GB download) or VibeVoice-1.5B (smaller and faster, ~5 GB download) — with the right choice for your RAM marked as the default. Whichever you pick is both downloaded and launched. When you see `Running on local URL: http://127.0.0.1:7860`, open that address in your browser. Model loading itself takes a few quiet minutes — don't ctrl-C.
-Use the same command to run the Application after first install. It will check for downloaded models and not redownload them.  
+On first run the script detects your Mac's unified memory and asks which model you want — VibeVoice-Large (7B, best quality, ~18 GB download) or VibeVoice-1.5B (smaller and faster, ~5 GB download) — with the right choice for your RAM marked as the default. Whichever you pick is both downloaded and launched. When you see `Running on local URL: http://127.0.0.1:7860`, open that address in your browser. Model loading itself takes a few quiet minutes — don't ctrl-C.  
+Use the same command (bash vibevoice_apple_silicon.sh) to run the Application after first install. It will check for downloaded models and not redownload them.  
 
 Models are cached after download: re-run the script anytime and pick the other model to switch (instant once both are downloaded). Passing `--model` on the command line skips the picker entirely.
 
