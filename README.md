@@ -5,7 +5,38 @@ One-script, fully reproducible setup for running [VibeVoice](https://github.com/
 Tested working on a Mac Mini M4 (64 GB RAM) with the VibeVoice-Large (7B) model.
 
 ## Quick start
+You need FFMPEG and FFPROBE installed, the easiest way to do this is via HOMEBREW.  
+First check if ffmpeg and ffprobe  are installed. 
+```bash
+which ffmpeg
+which ffprobe
+```
+If installed then go to <b>Git Install</b>
+If not installed then we will install them via the package management utility Homebrew (brew).  
 
+```bash
+brew --version
+```
+If brew not installed then install homebrew (you will need sudo/Admin password )  
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"  
+```
+then check brew is now actually installed - it should give you a version number.  
+```bash
+brew --version
+```
+Now install ffmpeg and ffprobe (this is a universal system wide install. 
+- all future projects can use this.  
+```bash
+brew install ffmpeg
+```
+now when we check on the version number we should get a result !   
+```bash
+ffmpeg --version
+```
+
+## Git Install
 ```bash
 git clone https://github.com/cyberirishman/Vibe-Voice-MacM4-2026.git
 cd Vibe-Voice-MacM4-2026
