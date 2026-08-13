@@ -1,6 +1,6 @@
 # VibeVoice for Apple Silicon
 
-One-script, fully reproducible setup for running [VibeVoice](https://github.com/vibevoice-community/VibeVoice) — the open-source long-form multi-speaker TTS model originally released by Microsoft — locally on Apple Silicon Macs (M1–M4). No CUDA, no Homebrew, no Docker, no ComfyUI.
+One-script, fully reproducible setup for running [VibeVoice](https://github.com/vibevoice-community/VibeVoice) — the open-source long-form multi-speaker TTS model originally released by Microsoft — locally on Apple Silicon Macs (M1–M4). No CUDA, no Docker, no ComfyUI.
 
 Tested working on a Mac Mini M4 (64 GB RAM) with the VibeVoice-Large (7B) model.
 
