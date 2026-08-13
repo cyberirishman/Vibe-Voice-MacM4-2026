@@ -11,7 +11,7 @@ First check if ffmpeg and ffprobe  are installed.
 which ffmpeg
 which ffprobe
 ```
-If installed then go to <b>Git Install</b>
+If installed then go to <b>Git Install of Project</b>  
 If not installed then we will install them via the package management utility Homebrew (brew).  
 
 ```bash
@@ -36,7 +36,7 @@ now when we check on the version number we should get a result !
 ffmpeg --version
 ```
 
-## Git Install
+## Git Install of Project
 ```bash
 git clone https://github.com/cyberirishman/Vibe-Voice-MacM4-2026.git
 cd Vibe-Voice-MacM4-2026
