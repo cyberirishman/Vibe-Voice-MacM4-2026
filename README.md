@@ -4,7 +4,7 @@ One-script, fully reproducible setup for running [VibeVoice](https://github.com/
 
 Tested working on a Mac Mini M4 (64 GB RAM) with the VibeVoice-Large (7B) model.
 
-## Quick start
+## Prerequisites
 You need FFMPEG and FFPROBE installed, the easiest way to do this is via HOMEBREW.  
 First check if ffmpeg and ffprobe  are installed. 
 ```bash
